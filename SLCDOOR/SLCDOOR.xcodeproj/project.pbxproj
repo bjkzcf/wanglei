@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1836DA7F1D23C0620087DA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1836DA7E1D23C0620087DA6D /* Assets.xcassets */; };
+		1836DA8D1D23C0630087DA6D /* SLCDOORTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DA8C1D23C0630087DA6D /* SLCDOORTests.swift */; };
+		1836DA981D23C0630087DA6D /* SLCDOORUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DA971D23C0630087DA6D /* SLCDOORUITests.swift */; };
+		1836DAFD1D23C62C0087DA6D /* SLCFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DADA1D23C62C0087DA6D /* SLCFirstViewController.swift */; };
+		1836DAFE1D23C62C0087DA6D /* SLCHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DADC1D23C62C0087DA6D /* SLCHistoryViewController.swift */; };
+		1836DAFF1D23C62C0087DA6D /* SLCHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DADE1D23C62C0087DA6D /* SLCHomeViewController.swift */; };
+		1836DB001D23C62C0087DA6D /* SLCQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DADF1D23C62C0087DA6D /* SLCQRViewController.swift */; };
+		1836DB011D23C62C0087DA6D /* SLCKeyBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAE11D23C62C0087DA6D /* SLCKeyBoardViewController.swift */; };
+		1836DB021D23C62C0087DA6D /* SLCKeyManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAE21D23C62C0087DA6D /* SLCKeyManagerViewController.swift */; };
+		1836DB031D23C62C0087DA6D /* SLCSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAE41D23C62C0087DA6D /* SLCSecondViewController.swift */; };
+		1836DB041D23C62C0087DA6D /* SLCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAE71D23C62C0087DA6D /* SLCBaseViewController.swift */; };
+		1836DB051D23C62C0087DA6D /* SLCSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAE81D23C62C0087DA6D /* SLCSetViewController.swift */; };
+		1836DB061D23C62C0087DA6D /* SLCSettingArrowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAEA1D23C62C0087DA6D /* SLCSettingArrowItem.swift */; };
+		1836DB071D23C62C0087DA6D /* SLCSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAEB1D23C62C0087DA6D /* SLCSettingCell.swift */; };
+		1836DB081D23C62C0087DA6D /* SLCSettingGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAEC1D23C62C0087DA6D /* SLCSettingGroup.swift */; };
+		1836DB091D23C62C0087DA6D /* SLCSettingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAED1D23C62C0087DA6D /* SLCSettingItem.swift */; };
+		1836DB0A1D23C62C0087DA6D /* SLCSettingLabelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAEE1D23C62C0087DA6D /* SLCSettingLabelItem.swift */; };
+		1836DB0B1D23C62C0087DA6D /* SLCSettingSwitchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAEF1D23C62C0087DA6D /* SLCSettingSwitchItem.swift */; };
+		1836DB0C1D23C62C0087DA6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAF11D23C62C0087DA6D /* AppDelegate.swift */; };
+		1836DB0D1D23C62C0087DA6D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAF21D23C62C0087DA6D /* Common.swift */; };
+		1836DB0E1D23C62C0087DA6D /* SLCNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAF41D23C62C0087DA6D /* SLCNavigationController.swift */; };
+		1836DB0F1D23C62C0087DA6D /* SLCPassWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAF51D23C62C0087DA6D /* SLCPassWordViewController.swift */; };
+		1836DB101D23C62C0087DA6D /* SLCPassWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1836DAF61D23C62C0087DA6D /* SLCPassWordViewController.xib */; };
+		1836DB111D23C62C0087DA6D /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAF81D23C62C0087DA6D /* R.generated.swift */; };
+		1836DB121D23C62C0087DA6D /* SLCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAFA1D23C62C0087DA6D /* SLCButton.swift */; };
+		1836DB131D23C62C0087DA6D /* UIButton+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAFB1D23C62C0087DA6D /* UIButton+Category.swift */; };
+		1836DB141D23C62C0087DA6D /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAFC1D23C62C0087DA6D /* UIView+AutoLayout.swift */; };
+		CB6A2CEDA52EDFDE45DFD1A1 /* Pods_SLCDOOR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D511FD1886DBC46A590D8FA /* Pods_SLCDOOR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1836DA891D23C0630087DA6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1836DA6C1D23C0620087DA6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1836DA731D23C0620087DA6D;
+			remoteInfo = SLCDOOR;
+		};
+		1836DA941D23C0630087DA6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1836DA6C1D23C0620087DA6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1836DA731D23C0620087DA6D;
+			remoteInfo = SLCDOOR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1836DA741D23C0620087DA6D /* SLCDOOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLCDOOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1836DA7E1D23C0620087DA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../SLCDOOR/Assets.xcassets; sourceTree = "<group>"; };
+		1836DA831D23C0620087DA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1836DA881D23C0630087DA6D /* SLCDOORTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLCDOORTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1836DA8C1D23C0630087DA6D /* SLCDOORTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCDOORTests.swift; sourceTree = "<group>"; };
+		1836DA8E1D23C0630087DA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1836DA931D23C0630087DA6D /* SLCDOORUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLCDOORUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1836DA971D23C0630087DA6D /* SLCDOORUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCDOORUITests.swift; sourceTree = "<group>"; };
+		1836DA991D23C0630087DA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1836DADA1D23C62C0087DA6D /* SLCFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCFirstViewController.swift; sourceTree = "<group>"; };
+		1836DADC1D23C62C0087DA6D /* SLCHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCHistoryViewController.swift; sourceTree = "<group>"; };
+		1836DADE1D23C62C0087DA6D /* SLCHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCHomeViewController.swift; sourceTree = "<group>"; };
+		1836DADF1D23C62C0087DA6D /* SLCQRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCQRViewController.swift; sourceTree = "<group>"; };
+		1836DAE11D23C62C0087DA6D /* SLCKeyBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCKeyBoardViewController.swift; sourceTree = "<group>"; };
+		1836DAE21D23C62C0087DA6D /* SLCKeyManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCKeyManagerViewController.swift; sourceTree = "<group>"; };
+		1836DAE41D23C62C0087DA6D /* SLCSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSecondViewController.swift; sourceTree = "<group>"; };
+		1836DAE71D23C62C0087DA6D /* SLCBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCBaseViewController.swift; sourceTree = "<group>"; };
+		1836DAE81D23C62C0087DA6D /* SLCSetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSetViewController.swift; sourceTree = "<group>"; };
+		1836DAEA1D23C62C0087DA6D /* SLCSettingArrowItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSettingArrowItem.swift; sourceTree = "<group>"; };
+		1836DAEB1D23C62C0087DA6D /* SLCSettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSettingCell.swift; sourceTree = "<group>"; };
+		1836DAEC1D23C62C0087DA6D /* SLCSettingGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSettingGroup.swift; sourceTree = "<group>"; };
+		1836DAED1D23C62C0087DA6D /* SLCSettingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSettingItem.swift; sourceTree = "<group>"; };
+		1836DAEE1D23C62C0087DA6D /* SLCSettingLabelItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSettingLabelItem.swift; sourceTree = "<group>"; };
+		1836DAEF1D23C62C0087DA6D /* SLCSettingSwitchItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSettingSwitchItem.swift; sourceTree = "<group>"; };
+		1836DAF11D23C62C0087DA6D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1836DAF21D23C62C0087DA6D /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		1836DAF41D23C62C0087DA6D /* SLCNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCNavigationController.swift; sourceTree = "<group>"; };
+		1836DAF51D23C62C0087DA6D /* SLCPassWordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCPassWordViewController.swift; sourceTree = "<group>"; };
+		1836DAF61D23C62C0087DA6D /* SLCPassWordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLCPassWordViewController.xib; sourceTree = "<group>"; };
+		1836DAF71D23C62C0087DA6D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1836DAF81D23C62C0087DA6D /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		1836DAFA1D23C62C0087DA6D /* SLCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCButton.swift; sourceTree = "<group>"; };
+		1836DAFB1D23C62C0087DA6D /* UIButton+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Category.swift"; sourceTree = "<group>"; };
+		1836DAFC1D23C62C0087DA6D /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		1D18F8D34EAC43AE5AF5ECB6 /* Pods-SLCDOOR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLCDOOR.release.xcconfig"; path = "Pods/Target Support Files/Pods-SLCDOOR/Pods-SLCDOOR.release.xcconfig"; sourceTree = "<group>"; };
+		5D511FD1886DBC46A590D8FA /* Pods_SLCDOOR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLCDOOR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30B1237CE4D1BA5A539B35E /* Pods-SLCDOOR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLCDOOR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLCDOOR/Pods-SLCDOOR.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1836DA711D23C0620087DA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6A2CEDA52EDFDE45DFD1A1 /* Pods_SLCDOOR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1836DA851D23C0630087DA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1836DA901D23C0630087DA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1836DA6B1D23C0620087DA6D = {
+			isa = PBXGroup;
+			children = (
+				1836DA761D23C0620087DA6D /* SLCDOOR */,
+				1836DA8B1D23C0630087DA6D /* SLCDOORTests */,
+				1836DA961D23C0630087DA6D /* SLCDOORUITests */,
+				1836DA751D23C0620087DA6D /* Products */,
+				D7B513BBADDBBDB1C56C37CA /* Pods */,
+				AAC8539D14662F0B10C294EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1836DA751D23C0620087DA6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1836DA741D23C0620087DA6D /* SLCDOOR.app */,
+				1836DA881D23C0630087DA6D /* SLCDOORTests.xctest */,
+				1836DA931D23C0630087DA6D /* SLCDOORUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1836DA761D23C0620087DA6D /* SLCDOOR */ = {
+			isa = PBXGroup;
+			children = (
+				1836DAD71D23C62C0087DA6D /* Classes */,
+				1836DA831D23C0620087DA6D /* Info.plist */,
+			);
+			path = SLCDOOR;
+			sourceTree = "<group>";
+		};
+		1836DA8B1D23C0630087DA6D /* SLCDOORTests */ = {
+			isa = PBXGroup;
+			children = (
+				1836DA7E1D23C0620087DA6D /* Assets.xcassets */,
+				1836DA8C1D23C0630087DA6D /* SLCDOORTests.swift */,
+				1836DA8E1D23C0630087DA6D /* Info.plist */,
+			);
+			path = SLCDOORTests;
+			sourceTree = "<group>";
+		};
+		1836DA961D23C0630087DA6D /* SLCDOORUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1836DA971D23C0630087DA6D /* SLCDOORUITests.swift */,
+				1836DA991D23C0630087DA6D /* Info.plist */,
+			);
+			path = SLCDOORUITests;
+			sourceTree = "<group>";
+		};
+		1836DAD71D23C62C0087DA6D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1836DAD81D23C62C0087DA6D /* Controller */,
+				1836DAF01D23C62C0087DA6D /* Others */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1836DAD81D23C62C0087DA6D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1836DAD91D23C62C0087DA6D /* First */,
+				1836DADB1D23C62C0087DA6D /* History */,
+				1836DADD1D23C62C0087DA6D /* Home */,
+				1836DAE01D23C62C0087DA6D /* KeyManager */,
+				1836DAE31D23C62C0087DA6D /* Second */,
+				1836DAE51D23C62C0087DA6D /* Set */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1836DAD91D23C62C0087DA6D /* First */ = {
+			isa = PBXGroup;
+			children = (
+				1836DADA1D23C62C0087DA6D /* SLCFirstViewController.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		1836DADB1D23C62C0087DA6D /* History */ = {
+			isa = PBXGroup;
+			children = (
+				1836DADC1D23C62C0087DA6D /* SLCHistoryViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		1836DADD1D23C62C0087DA6D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1836DADE1D23C62C0087DA6D /* SLCHomeViewController.swift */,
+				1836DADF1D23C62C0087DA6D /* SLCQRViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1836DAE01D23C62C0087DA6D /* KeyManager */ = {
+			isa = PBXGroup;
+			children = (
+				1836DAE11D23C62C0087DA6D /* SLCKeyBoardViewController.swift */,
+				1836DAE21D23C62C0087DA6D /* SLCKeyManagerViewController.swift */,
+			);
+			path = KeyManager;
+			sourceTree = "<group>";
+		};
+		1836DAE31D23C62C0087DA6D /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				1836DAE41D23C62C0087DA6D /* SLCSecondViewController.swift */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		1836DAE51D23C62C0087DA6D /* Set */ = {
+			isa = PBXGroup;
+			children = (
+				1836DAE61D23C62C0087DA6D /* Controller */,
+				1836DAE91D23C62C0087DA6D /* View */,
+			);
+			path = Set;
+			sourceTree = "<group>";
+		};
+		1836DAE61D23C62C0087DA6D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1836DAE71D23C62C0087DA6D /* SLCBaseViewController.swift */,
+				1836DAE81D23C62C0087DA6D /* SLCSetViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1836DAE91D23C62C0087DA6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1836DAEA1D23C62C0087DA6D /* SLCSettingArrowItem.swift */,
+				1836DAEB1D23C62C0087DA6D /* SLCSettingCell.swift */,
+				1836DAEC1D23C62C0087DA6D /* SLCSettingGroup.swift */,
+				1836DAED1D23C62C0087DA6D /* SLCSettingItem.swift */,
+				1836DAEE1D23C62C0087DA6D /* SLCSettingLabelItem.swift */,
+				1836DAEF1D23C62C0087DA6D /* SLCSettingSwitchItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1836DAF01D23C62C0087DA6D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				1836DAF11D23C62C0087DA6D /* AppDelegate.swift */,
+				1836DAF21D23C62C0087DA6D /* Common.swift */,
+				1836DAF31D23C62C0087DA6D /* Controller */,
+				1836DAF71D23C62C0087DA6D /* PrefixHeader.pch */,
+				1836DAF81D23C62C0087DA6D /* R.generated.swift */,
+				1836DAF91D23C62C0087DA6D /* View */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		1836DAF31D23C62C0087DA6D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1836DAF41D23C62C0087DA6D /* SLCNavigationController.swift */,
+				1836DAF51D23C62C0087DA6D /* SLCPassWordViewController.swift */,
+				1836DAF61D23C62C0087DA6D /* SLCPassWordViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1836DAF91D23C62C0087DA6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1836DAFA1D23C62C0087DA6D /* SLCButton.swift */,
+				1836DAFB1D23C62C0087DA6D /* UIButton+Category.swift */,
+				1836DAFC1D23C62C0087DA6D /* UIView+AutoLayout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAC8539D14662F0B10C294EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D511FD1886DBC46A590D8FA /* Pods_SLCDOOR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7B513BBADDBBDB1C56C37CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F30B1237CE4D1BA5A539B35E /* Pods-SLCDOOR.debug.xcconfig */,
+				1D18F8D34EAC43AE5AF5ECB6 /* Pods-SLCDOOR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1836DA731D23C0620087DA6D /* SLCDOOR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1836DA9C1D23C0630087DA6D /* Build configuration list for PBXNativeTarget "SLCDOOR" */;
+			buildPhases = (
+				DD27A50BA103ADB23514B699 /* [CP] Check Pods Manifest.lock */,
+				1836DA701D23C0620087DA6D /* Sources */,
+				1836DA711D23C0620087DA6D /* Frameworks */,
+				1836DA721D23C0620087DA6D /* Resources */,
+				3FAD18A83D2C5D4C3C980697 /* [CP] Embed Pods Frameworks */,
+				AB741F68000E74666D4924E0 /* [CP] Copy Pods Resources */,
+				1836DAD41D23C2A80087DA6D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLCDOOR;
+			productName = SLCDOOR;
+			productReference = 1836DA741D23C0620087DA6D /* SLCDOOR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1836DA871D23C0630087DA6D /* SLCDOORTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1836DA9F1D23C0630087DA6D /* Build configuration list for PBXNativeTarget "SLCDOORTests" */;
+			buildPhases = (
+				1836DA841D23C0630087DA6D /* Sources */,
+				1836DA851D23C0630087DA6D /* Frameworks */,
+				1836DA861D23C0630087DA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1836DA8A1D23C0630087DA6D /* PBXTargetDependency */,
+			);
+			name = SLCDOORTests;
+			productName = SLCDOORTests;
+			productReference = 1836DA881D23C0630087DA6D /* SLCDOORTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1836DA921D23C0630087DA6D /* SLCDOORUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1836DAA21D23C0630087DA6D /* Build configuration list for PBXNativeTarget "SLCDOORUITests" */;
+			buildPhases = (
+				1836DA8F1D23C0630087DA6D /* Sources */,
+				1836DA901D23C0630087DA6D /* Frameworks */,
+				1836DA911D23C0630087DA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1836DA951D23C0630087DA6D /* PBXTargetDependency */,
+			);
+			name = SLCDOORUITests;
+			productName = SLCDOORUITests;
+			productReference = 1836DA931D23C0630087DA6D /* SLCDOORUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1836DA6C1D23C0620087DA6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WangLei;
+				TargetAttributes = {
+					1836DA731D23C0620087DA6D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1836DA871D23C0630087DA6D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1836DA731D23C0620087DA6D;
+					};
+					1836DA921D23C0630087DA6D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1836DA731D23C0620087DA6D;
+					};
+				};
+			};
+			buildConfigurationList = 1836DA6F1D23C0620087DA6D /* Build configuration list for PBXProject "SLCDOOR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1836DA6B1D23C0620087DA6D;
+			productRefGroup = 1836DA751D23C0620087DA6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1836DA731D23C0620087DA6D /* SLCDOOR */,
+				1836DA871D23C0630087DA6D /* SLCDOORTests */,
+				1836DA921D23C0630087DA6D /* SLCDOORUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1836DA721D23C0620087DA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1836DB101D23C62C0087DA6D /* SLCPassWordViewController.xib in Resources */,
+				1836DA7F1D23C0620087DA6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1836DA861D23C0630087DA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1836DA911D23C0630087DA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1836DAD41D23C2A80087DA6D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"";
+		};
+		3FAD18A83D2C5D4C3C980697 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLCDOOR/Pods-SLCDOOR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB741F68000E74666D4924E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLCDOOR/Pods-SLCDOOR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD27A50BA103ADB23514B699 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1836DA701D23C0620087DA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1836DB141D23C62C0087DA6D /* UIView+AutoLayout.swift in Sources */,
+				1836DB0D1D23C62C0087DA6D /* Common.swift in Sources */,
+				1836DB001D23C62C0087DA6D /* SLCQRViewController.swift in Sources */,
+				1836DB071D23C62C0087DA6D /* SLCSettingCell.swift in Sources */,
+				1836DB131D23C62C0087DA6D /* UIButton+Category.swift in Sources */,
+				1836DB011D23C62C0087DA6D /* SLCKeyBoardViewController.swift in Sources */,
+				1836DB0E1D23C62C0087DA6D /* SLCNavigationController.swift in Sources */,
+				1836DB0A1D23C62C0087DA6D /* SLCSettingLabelItem.swift in Sources */,
+				1836DB041D23C62C0087DA6D /* SLCBaseViewController.swift in Sources */,
+				1836DB111D23C62C0087DA6D /* R.generated.swift in Sources */,
+				1836DB091D23C62C0087DA6D /* SLCSettingItem.swift in Sources */,
+				1836DB0F1D23C62C0087DA6D /* SLCPassWordViewController.swift in Sources */,
+				1836DAFF1D23C62C0087DA6D /* SLCHomeViewController.swift in Sources */,
+				1836DB0B1D23C62C0087DA6D /* SLCSettingSwitchItem.swift in Sources */,
+				1836DB0C1D23C62C0087DA6D /* AppDelegate.swift in Sources */,
+				1836DB081D23C62C0087DA6D /* SLCSettingGroup.swift in Sources */,
+				1836DB061D23C62C0087DA6D /* SLCSettingArrowItem.swift in Sources */,
+				1836DB121D23C62C0087DA6D /* SLCButton.swift in Sources */,
+				1836DAFE1D23C62C0087DA6D /* SLCHistoryViewController.swift in Sources */,
+				1836DAFD1D23C62C0087DA6D /* SLCFirstViewController.swift in Sources */,
+				1836DB051D23C62C0087DA6D /* SLCSetViewController.swift in Sources */,
+				1836DB021D23C62C0087DA6D /* SLCKeyManagerViewController.swift in Sources */,
+				1836DB031D23C62C0087DA6D /* SLCSecondViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1836DA841D23C0630087DA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1836DA8D1D23C0630087DA6D /* SLCDOORTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1836DA8F1D23C0630087DA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1836DA981D23C0630087DA6D /* SLCDOORUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1836DA8A1D23C0630087DA6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1836DA731D23C0620087DA6D /* SLCDOOR */;
+			targetProxy = 1836DA891D23C0630087DA6D /* PBXContainerItemProxy */;
+		};
+		1836DA951D23C0630087DA6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1836DA731D23C0620087DA6D /* SLCDOOR */;
+			targetProxy = 1836DA941D23C0630087DA6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1836DA9A1D23C0630087DA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1836DA9B1D23C0630087DA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1836DA9D1D23C0630087DA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30B1237CE4D1BA5A539B35E /* Pods-SLCDOOR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SLCDOOR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huatune.SLCDOOR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1836DA9E1D23C0630087DA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D18F8D34EAC43AE5AF5ECB6 /* Pods-SLCDOOR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SLCDOOR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huatune.SLCDOOR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1836DAA01D23C0630087DA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SLCDOORTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huatune.SLCDOORTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLCDOOR.app/SLCDOOR";
+			};
+			name = Debug;
+		};
+		1836DAA11D23C0630087DA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SLCDOORTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huatune.SLCDOORTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLCDOOR.app/SLCDOOR";
+			};
+			name = Release;
+		};
+		1836DAA31D23C0630087DA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SLCDOORUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huatune.SLCDOORUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SLCDOOR;
+			};
+			name = Debug;
+		};
+		1836DAA41D23C0630087DA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SLCDOORUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huatune.SLCDOORUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SLCDOOR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1836DA6F1D23C0620087DA6D /* Build configuration list for PBXProject "SLCDOOR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1836DA9A1D23C0630087DA6D /* Debug */,
+				1836DA9B1D23C0630087DA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1836DA9C1D23C0630087DA6D /* Build configuration list for PBXNativeTarget "SLCDOOR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1836DA9D1D23C0630087DA6D /* Debug */,
+				1836DA9E1D23C0630087DA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1836DA9F1D23C0630087DA6D /* Build configuration list for PBXNativeTarget "SLCDOORTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1836DAA01D23C0630087DA6D /* Debug */,
+				1836DAA11D23C0630087DA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1836DAA21D23C0630087DA6D /* Build configuration list for PBXNativeTarget "SLCDOORUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1836DAA31D23C0630087DA6D /* Debug */,
+				1836DAA41D23C0630087DA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1836DA6C1D23C0620087DA6D /* Project object */;
+}

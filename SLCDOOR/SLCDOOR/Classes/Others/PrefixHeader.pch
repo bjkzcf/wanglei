@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  SLC
+//
+//  Created by 123 on 16/6/6.
+//  Copyright © 2016年 WangLei. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//左右震荡
+/**
+ *     
+ CAKeyframeAnimation *anim = [CAKeyframeAnimation animationWithKeyPath:@"transform.translation.x"];
+ 
+ anim.repeatCount = 1;
+ 
+ anim.values = @[@-20,@20,@-20];
+ 
+ [view.layer addAnimation:anim forKey:nil];//添加
+ */
+
+//获取版本号
+//        let dictInfo:NSDictionary = NSBundle.mainBundle().infoDictionary!
+//        let versions = dictInfo.objectForKey("CFBundleShortVersionString") as! String
+
+
+//UICKeyChainStore 存放用户账号密码组件
+#endif /* PrefixHeader_pch */
