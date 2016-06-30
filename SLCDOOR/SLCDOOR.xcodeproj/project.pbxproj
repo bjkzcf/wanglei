@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1811D7BD1D24C87D0034C1E2 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811D7BC1D24C87D0034C1E2 /* BluetoothManager.swift */; };
+		1812B3371D23CBEE007A7FA9 /* SLCBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1812B3341D23CBEE007A7FA9 /* SLCBluetoothViewController.swift */; };
+		1812B3391D23CC2B007A7FA9 /* SLCKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1812B3381D23CC2B007A7FA9 /* SLCKeys.swift */; };
 		1836DA7F1D23C0620087DA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1836DA7E1D23C0620087DA6D /* Assets.xcassets */; };
 		1836DA8D1D23C0630087DA6D /* SLCDOORTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DA8C1D23C0630087DA6D /* SLCDOORTests.swift */; };
 		1836DA981D23C0630087DA6D /* SLCDOORUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DA971D23C0630087DA6D /* SLCDOORUITests.swift */; };
@@ -54,10 +57,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1811D7FF1D2523960034C1E2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1811D7BC1D24C87D0034C1E2 /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		1812B3341D23CBEE007A7FA9 /* SLCBluetoothViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCBluetoothViewController.swift; sourceTree = "<group>"; };
+		1812B3381D23CC2B007A7FA9 /* SLCKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCKeys.swift; sourceTree = "<group>"; };
 		1836DA741D23C0620087DA6D /* SLCDOOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLCDOOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1836DA7E1D23C0620087DA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../SLCDOOR/Assets.xcassets; sourceTree = "<group>"; };
-		1836DA831D23C0620087DA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1836DA831D23C0620087DA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 		1836DA881D23C0630087DA6D /* SLCDOORTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLCDOORTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1836DA8C1D23C0630087DA6D /* SLCDOORTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCDOORTests.swift; sourceTree = "<group>"; };
 		1836DA8E1D23C0630087DA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -120,6 +139,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1812B3321D23CBEE007A7FA9 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				1812B3331D23CBEE007A7FA9 /* Controller */,
+				1812B3361D23CBEE007A7FA9 /* View */,
+				1812B3351D23CBEE007A7FA9 /* Model */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		1812B3331D23CBEE007A7FA9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1812B3341D23CBEE007A7FA9 /* SLCBluetoothViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1812B3351D23CBEE007A7FA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1812B3381D23CC2B007A7FA9 /* SLCKeys.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1812B3361D23CBEE007A7FA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1836DA6B1D23C0620087DA6D = {
 			isa = PBXGroup;
 			children = (
@@ -146,7 +198,6 @@
 			isa = PBXGroup;
 			children = (
 				1836DAD71D23C62C0087DA6D /* Classes */,
-				1836DA831D23C0620087DA6D /* Info.plist */,
 			);
 			path = SLCDOOR;
 			sourceTree = "<group>";
@@ -182,6 +233,7 @@
 		1836DAD81D23C62C0087DA6D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1812B3321D23CBEE007A7FA9 /* Bluetooth */,
 				1836DAD91D23C62C0087DA6D /* First */,
 				1836DADB1D23C62C0087DA6D /* History */,
 				1836DADD1D23C62C0087DA6D /* Home */,
@@ -268,6 +320,8 @@
 		1836DAF01D23C62C0087DA6D /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				1811D7BC1D24C87D0034C1E2 /* BluetoothManager.swift */,
+				1836DA831D23C0620087DA6D /* Info.plist */,
 				1836DAF11D23C62C0087DA6D /* AppDelegate.swift */,
 				1836DAF21D23C62C0087DA6D /* Common.swift */,
 				1836DAF31D23C62C0087DA6D /* Controller */,
@@ -329,6 +383,7 @@
 				3FAD18A83D2C5D4C3C980697 /* [CP] Embed Pods Frameworks */,
 				AB741F68000E74666D4924E0 /* [CP] Copy Pods Resources */,
 				1836DAD41D23C2A80087DA6D /* ShellScript */,
+				1811D7FF1D2523960034C1E2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -381,6 +436,7 @@
 		1836DA6C1D23C0620087DA6D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SLC;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = WangLei;
@@ -512,6 +568,8 @@
 			files = (
 				1836DB141D23C62C0087DA6D /* UIView+AutoLayout.swift in Sources */,
 				1836DB0D1D23C62C0087DA6D /* Common.swift in Sources */,
+				1811D7BD1D24C87D0034C1E2 /* BluetoothManager.swift in Sources */,
+				1812B3391D23CC2B007A7FA9 /* SLCKeys.swift in Sources */,
 				1836DB001D23C62C0087DA6D /* SLCQRViewController.swift in Sources */,
 				1836DB071D23C62C0087DA6D /* SLCSettingCell.swift in Sources */,
 				1836DB131D23C62C0087DA6D /* UIButton+Category.swift in Sources */,
@@ -522,6 +580,7 @@
 				1836DB111D23C62C0087DA6D /* R.generated.swift in Sources */,
 				1836DB091D23C62C0087DA6D /* SLCSettingItem.swift in Sources */,
 				1836DB0F1D23C62C0087DA6D /* SLCPassWordViewController.swift in Sources */,
+				1812B3371D23CBEE007A7FA9 /* SLCBluetoothViewController.swift in Sources */,
 				1836DAFF1D23C62C0087DA6D /* SLCHomeViewController.swift in Sources */,
 				1836DB0B1D23C62C0087DA6D /* SLCSettingSwitchItem.swift in Sources */,
 				1836DB0C1D23C62C0087DA6D /* AppDelegate.swift in Sources */,
@@ -659,6 +718,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SLCDOOR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huatune.SLCDOOR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

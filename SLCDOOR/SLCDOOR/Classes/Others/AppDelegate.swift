@@ -20,10 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = UIColor.whiteColor()
         let na = SLCNavigationController(rootViewController: SLCHomeViewController())
         window?.rootViewController = na
-        window?.makeKeyAndVisible()
-        WLLog("sdfsadf")
-        WLLog("sdfasdgfasdgasdgasdfgasdgas")
-
+        window?.makeKeyAndVisible() 
         return true
     }
 
