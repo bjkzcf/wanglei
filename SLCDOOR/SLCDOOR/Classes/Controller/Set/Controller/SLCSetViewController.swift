@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SVProgressHUD
 class SLCSetViewController: SLCBaseViewController {
     
     override func viewDidLoad() {

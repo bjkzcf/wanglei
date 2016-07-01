@@ -15,21 +15,35 @@ class SLCBluetoothViewController: UITableViewController {
     var bluetoothManager = BluetoothManager.shareManager(BluetoothViewControllerChannnel)
     override func viewDidLoad() {
         super.viewDidLoad()
-        contentView()
+        setupNav()
+        view.backgroundColor = UIColor.darkGrayColor()
+        // 初始化刷新
+        refreshControl = XMGRefreshControl()
+        /*
+         1.UIRefreshControl只要拉到一定程度无论是否松手会都触发下拉事件
+         2.触发下拉时间之后, 菊花不会自动隐藏
+         3.想让菊花消失必须手动调用endRefreshing()
+         4.只要调用beginRefreshing, 那么菊花就会自动显示
+         5.如果是通过beginRefreshing显示菊花, 不会触发下拉事件
+         */
+        refreshControl?.addTarget(self, action: #selector(SLCBluetoothViewController.loadData), forControlEvents: UIControlEvents.ValueChanged)
+//        refreshControl?.beginRefreshing()
+    }
+    func loadData() {
+        WLLog("jizai")
     }
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         bluetoothManager = BluetoothManager.shareManager(BluetoothViewControllerChannnel)
         delegate()
     }
-    /**
-     header视图
-     */
-    private func contentView(){
-        headerView.addSubview(headerTextLable)
-        headerView.addSubview(activityIndicatorView)
-        headerTextLable.SLC_AlignInner(type: SLC_AlignType.CenterLeft, referView: headerView, size: nil, offset: CGPoint(x: 10, y: 0))
-        activityIndicatorView.SLC_AlignInner(type: SLC_AlignType.CenterRight, referView: headerView, size: nil, offset: CGPoint(x: -10, y: 0))
+    
+    private func setupNav() {
+        navigationItem.rightBarButtonItem = UIBarButtonItem(customView: rightBtn)
+         navigationItem.title = "附近的开门器"
+    }
+    @objc private func history() {
+        WLLog("history")
     }
     private func delegate() {
         //发现设备，插入
@@ -118,7 +132,6 @@ class SLCBluetoothViewController: UITableViewController {
                 print("连接成功")
                 dispatch_async(dispatch_get_main_queue(), {
                     self.bluetoothManager.bluetoothstopScan()
-                    self.activityIndicatorView.stopAnimating()
                     NSLog("停止扫描")
                     self.bluetoothManager.bluetoothdiscoverServices(nil)
                 })
@@ -149,23 +162,12 @@ class SLCBluetoothViewController: UITableViewController {
         let connectAllPeripherals = defaults.objectForKey("connectAllPeripherals") as! NSArray
         return connectAllPeripherals
     }()
-    /// header标题
-    private lazy var headerTextLable:UILabel = {
-        let textLable = UILabel()
-        textLable.bounds = CGRect(x: 0, y: 0, width: 100, height: 30)
-        return textLable
-    }()
-    /// headerVeiw
-    private lazy var headerView : UIView = {
-        let view = UIView()
-        view.backgroundColor = UIColor.cyanColor()
-        return view
-    }()
-    /// 菊花
-    private lazy var activityIndicatorView: UIActivityIndicatorView = {
-        let activityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.WhiteLarge)
-        activityIndicatorView.bounds = CGRect(x: 0, y: 0, width: 30, height: 30)
-        return activityIndicatorView
+    private lazy var rightBtn :UIButton = {
+        let btn = UIButton(type: UIButtonType.Custom)
+        btn.bounds = CGRect(x: 0, y: 0, width: 35, height: 35)
+        btn.addTarget(self, action: #selector(SLCBluetoothViewController.history), forControlEvents: UIControlEvents.TouchUpInside)
+        btn.setImage(UIImage(named: "history"), forState: UIControlState.Normal)
+        return btn
     }()
 }
 
@@ -174,66 +176,61 @@ extension SLCBluetoothViewController {
     // MARK: - Table view data source
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return peripheralArray.count
+        let num = peripheralArray.count > 0 ? peripheralArray.count : 1
+        return num
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return peripheralArray[section].row
+//        return peripheralArray[section].row
+        return 3
     }
-    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 44
-    }
-    override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 36
-    }
-
-    
+  
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let reuseIdentifier = "reuseIdentifier"
-        var cell:UITableViewCell! = tableView.dequeueReusableCellWithIdentifier(reuseIdentifier, forIndexPath: indexPath) as UITableViewCell
+        var cell:UITableViewCell! = tableView.dequeueReusableCellWithIdentifier(reuseIdentifier)
         if cell == nil {
-            cell = UITableViewCell(style: UITableViewCellStyle.Value1, reuseIdentifier: reuseIdentifier)
+            cell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: reuseIdentifier)
         }
-        
-        let statu = peripheralArray[indexPath.section][indexPath.row] as! SLCKeys
-        let peripheral = statu.peripheral!
-        let ad :NSDictionary = statu.advertisementData
-        
-        //peripheral的显示名称,优先用kCBAdvDataLocalName的定义，若没有再使用peripheral name
-        //蓝牙名字
-        let localName:String?
-        if ((ad.objectForKey("kCBAdvDataLocalName")) != nil) {
-            localName = ad.objectForKey("kCBAdvDataLocalName") as? String
-        }else{
-            localName = peripheral.name
+        if peripheralArray.count > 0 {
+            let statu = peripheralArray[indexPath.section][indexPath.row] as! SLCKeys
+            let peripheral = statu.peripheral!
+            let ad :NSDictionary = statu.advertisementData
+            
+            //peripheral的显示名称,优先用kCBAdvDataLocalName的定义，若没有再使用peripheral name
+            //蓝牙名字
+            let localName:String?
+            if ((ad.objectForKey("kCBAdvDataLocalName")) != nil) {
+                localName = ad.objectForKey("kCBAdvDataLocalName") as? String
+            }else{
+                localName = peripheral.name
+            }
+            cell.textLabel?.text = localName
+
         }
-        cell.textLabel?.text = localName
-        cell.imageView?.image = R.image.iDInfo
+        cell.textLabel?.text = "DOOR"
+        cell.imageView?.image = UIImage(named: "device")
+        cell.backgroundColor = UIColor.darkGrayColor()
         return cell
      }
     
     //MARK: -Table view delegate
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let peripheral = peripheralArray[indexPath.section][indexPath.row] as! CBPeripheral
-        self.bluetoothconnectPeripheral(peripheral, options: nil)
+        WLLog(indexPath)
+//        let peripheral = peripheralArray[indexPath.section][indexPath.row] as! CBPeripheral
+//        self.bluetoothconnectPeripheral(peripheral, options: nil)
     }
-        override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        let title :String?
         if peripheralArray.count == 0 {
-            activityIndicatorView.hidden = false
-            headerTextLable.text = "正在扫描"
-            activityIndicatorView.startAnimating()
+            title = "陌生的开门器"
         }else{
             if section == 0 {
-                activityIndicatorView.hidden = true
-                headerTextLable.text = "曾连接过"
+                title = "曾用的开门器"
             }else{
-                activityIndicatorView.hidden = false
-                headerTextLable.text = "正在扫描"
-                activityIndicatorView.startAnimating()
+                title = "陌生的开门器"
             }
         }
-        return headerView
+        return title
     }
-    
     
 }

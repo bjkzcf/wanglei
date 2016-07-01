@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         window?.backgroundColor = UIColor.whiteColor()
-        let na = SLCNavigationController(rootViewController: SLCHomeViewController())
+        let na = SLCNavigationController(rootViewController: SLCBluetoothViewController())
         window?.rootViewController = na
         window?.makeKeyAndVisible() 
         return true

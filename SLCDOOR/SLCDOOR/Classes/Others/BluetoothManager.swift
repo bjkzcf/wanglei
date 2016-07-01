@@ -52,7 +52,6 @@ class BluetoothManager: NSObject {
             manager = CBCentralManager(delegate: self, queue: nil)
         }
         //TODO: 读取信号值
-        peripheral.readRSSI()
     }
     
     ///检查运行这个App的设备是不是BLE

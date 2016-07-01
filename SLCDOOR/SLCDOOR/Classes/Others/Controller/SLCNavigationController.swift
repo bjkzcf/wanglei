@@ -19,6 +19,7 @@ class SLCNavigationController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
     override func pushViewController(viewController: UIViewController, animated: Bool) {
         
         let btn = UIButton(type: UIButtonType.Custom)

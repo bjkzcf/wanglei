@@ -7,129 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1811D7BD1D24C87D0034C1E2 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811D7BC1D24C87D0034C1E2 /* BluetoothManager.swift */; };
-		1812B3371D23CBEE007A7FA9 /* SLCBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1812B3341D23CBEE007A7FA9 /* SLCBluetoothViewController.swift */; };
-		1812B3391D23CC2B007A7FA9 /* SLCKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1812B3381D23CC2B007A7FA9 /* SLCKeys.swift */; };
-		1836DA7F1D23C0620087DA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1836DA7E1D23C0620087DA6D /* Assets.xcassets */; };
-		1836DA8D1D23C0630087DA6D /* SLCDOORTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DA8C1D23C0630087DA6D /* SLCDOORTests.swift */; };
-		1836DA981D23C0630087DA6D /* SLCDOORUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DA971D23C0630087DA6D /* SLCDOORUITests.swift */; };
-		1836DAFD1D23C62C0087DA6D /* SLCFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DADA1D23C62C0087DA6D /* SLCFirstViewController.swift */; };
-		1836DAFE1D23C62C0087DA6D /* SLCHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DADC1D23C62C0087DA6D /* SLCHistoryViewController.swift */; };
-		1836DAFF1D23C62C0087DA6D /* SLCHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DADE1D23C62C0087DA6D /* SLCHomeViewController.swift */; };
-		1836DB001D23C62C0087DA6D /* SLCQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DADF1D23C62C0087DA6D /* SLCQRViewController.swift */; };
-		1836DB011D23C62C0087DA6D /* SLCKeyBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAE11D23C62C0087DA6D /* SLCKeyBoardViewController.swift */; };
-		1836DB021D23C62C0087DA6D /* SLCKeyManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAE21D23C62C0087DA6D /* SLCKeyManagerViewController.swift */; };
-		1836DB031D23C62C0087DA6D /* SLCSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAE41D23C62C0087DA6D /* SLCSecondViewController.swift */; };
-		1836DB041D23C62C0087DA6D /* SLCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAE71D23C62C0087DA6D /* SLCBaseViewController.swift */; };
-		1836DB051D23C62C0087DA6D /* SLCSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAE81D23C62C0087DA6D /* SLCSetViewController.swift */; };
-		1836DB061D23C62C0087DA6D /* SLCSettingArrowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAEA1D23C62C0087DA6D /* SLCSettingArrowItem.swift */; };
-		1836DB071D23C62C0087DA6D /* SLCSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAEB1D23C62C0087DA6D /* SLCSettingCell.swift */; };
-		1836DB081D23C62C0087DA6D /* SLCSettingGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAEC1D23C62C0087DA6D /* SLCSettingGroup.swift */; };
-		1836DB091D23C62C0087DA6D /* SLCSettingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAED1D23C62C0087DA6D /* SLCSettingItem.swift */; };
-		1836DB0A1D23C62C0087DA6D /* SLCSettingLabelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAEE1D23C62C0087DA6D /* SLCSettingLabelItem.swift */; };
-		1836DB0B1D23C62C0087DA6D /* SLCSettingSwitchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAEF1D23C62C0087DA6D /* SLCSettingSwitchItem.swift */; };
-		1836DB0C1D23C62C0087DA6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAF11D23C62C0087DA6D /* AppDelegate.swift */; };
-		1836DB0D1D23C62C0087DA6D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAF21D23C62C0087DA6D /* Common.swift */; };
-		1836DB0E1D23C62C0087DA6D /* SLCNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAF41D23C62C0087DA6D /* SLCNavigationController.swift */; };
-		1836DB0F1D23C62C0087DA6D /* SLCPassWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAF51D23C62C0087DA6D /* SLCPassWordViewController.swift */; };
-		1836DB101D23C62C0087DA6D /* SLCPassWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1836DAF61D23C62C0087DA6D /* SLCPassWordViewController.xib */; };
-		1836DB111D23C62C0087DA6D /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAF81D23C62C0087DA6D /* R.generated.swift */; };
-		1836DB121D23C62C0087DA6D /* SLCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAFA1D23C62C0087DA6D /* SLCButton.swift */; };
-		1836DB131D23C62C0087DA6D /* UIButton+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAFB1D23C62C0087DA6D /* UIButton+Category.swift */; };
-		1836DB141D23C62C0087DA6D /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836DAFC1D23C62C0087DA6D /* UIView+AutoLayout.swift */; };
-		CB6A2CEDA52EDFDE45DFD1A1 /* Pods_SLCDOOR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D511FD1886DBC46A590D8FA /* Pods_SLCDOOR.framework */; };
+		1829FBD11D260CCA0007A6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1829FBD01D260CCA0007A6F7 /* Assets.xcassets */; };
+		1829FBDF1D260CCA0007A6F7 /* SLCDOORTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FBDE1D260CCA0007A6F7 /* SLCDOORTests.swift */; };
+		1829FBEA1D260CCA0007A6F7 /* SLCDOORUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FBE91D260CCA0007A6F7 /* SLCDOORUITests.swift */; };
+		1829FC241D260D610007A6F7 /* SLCBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FBFB1D260D610007A6F7 /* SLCBluetoothViewController.swift */; };
+		1829FC251D260D610007A6F7 /* SLCKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FBFD1D260D610007A6F7 /* SLCKeys.swift */; };
+		1829FC261D260D610007A6F7 /* SLCFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC001D260D610007A6F7 /* SLCFirstViewController.swift */; };
+		1829FC271D260D610007A6F7 /* SLCHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC021D260D610007A6F7 /* SLCHistoryViewController.swift */; };
+		1829FC281D260D610007A6F7 /* SLCHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC041D260D610007A6F7 /* SLCHomeViewController.swift */; };
+		1829FC291D260D610007A6F7 /* SLCQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC051D260D610007A6F7 /* SLCQRViewController.swift */; };
+		1829FC2A1D260D610007A6F7 /* SLCKeyBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC071D260D610007A6F7 /* SLCKeyBoardViewController.swift */; };
+		1829FC2B1D260D610007A6F7 /* SLCKeyManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC081D260D610007A6F7 /* SLCKeyManagerViewController.swift */; };
+		1829FC2C1D260D610007A6F7 /* SLCSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC0A1D260D610007A6F7 /* SLCSecondViewController.swift */; };
+		1829FC2D1D260D610007A6F7 /* SLCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC0D1D260D610007A6F7 /* SLCBaseViewController.swift */; };
+		1829FC2E1D260D610007A6F7 /* SLCSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC0E1D260D610007A6F7 /* SLCSetViewController.swift */; };
+		1829FC2F1D260D610007A6F7 /* SLCSettingArrowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC101D260D610007A6F7 /* SLCSettingArrowItem.swift */; };
+		1829FC301D260D610007A6F7 /* SLCSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC111D260D610007A6F7 /* SLCSettingCell.swift */; };
+		1829FC311D260D610007A6F7 /* SLCSettingGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC121D260D610007A6F7 /* SLCSettingGroup.swift */; };
+		1829FC321D260D610007A6F7 /* SLCSettingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC131D260D610007A6F7 /* SLCSettingItem.swift */; };
+		1829FC331D260D610007A6F7 /* SLCSettingLabelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC141D260D610007A6F7 /* SLCSettingLabelItem.swift */; };
+		1829FC341D260D610007A6F7 /* SLCSettingSwitchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC151D260D610007A6F7 /* SLCSettingSwitchItem.swift */; };
+		1829FC351D260D610007A6F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC171D260D610007A6F7 /* AppDelegate.swift */; };
+		1829FC361D260D610007A6F7 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC181D260D610007A6F7 /* BluetoothManager.swift */; };
+		1829FC371D260D610007A6F7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC191D260D610007A6F7 /* Common.swift */; };
+		1829FC381D260D610007A6F7 /* SLCNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC1B1D260D610007A6F7 /* SLCNavigationController.swift */; };
+		1829FC391D260D610007A6F7 /* SLCPassWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC1C1D260D610007A6F7 /* SLCPassWordViewController.swift */; };
+		1829FC3A1D260D610007A6F7 /* SLCPassWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1829FC1D1D260D610007A6F7 /* SLCPassWordViewController.xib */; };
+		1829FC3B1D260D610007A6F7 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC1F1D260D610007A6F7 /* R.generated.swift */; };
+		1829FC3C1D260D610007A6F7 /* SLCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC211D260D610007A6F7 /* SLCButton.swift */; };
+		1829FC3D1D260D610007A6F7 /* UIButton+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC221D260D610007A6F7 /* UIButton+Category.swift */; };
+		1829FC3E1D260D610007A6F7 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC231D260D610007A6F7 /* UIView+AutoLayout.swift */; };
+		1829FC411D2610F00007A6F7 /* RefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1829FC3F1D2610F00007A6F7 /* RefreshView.xib */; };
+		1829FC421D2610F00007A6F7 /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829FC401D2610F00007A6F7 /* RefreshView.swift */; };
+		18456FA3AF38F1B78B4814AD /* Pods_SLCDOOR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E16A1449AD18A7A682AE156 /* Pods_SLCDOOR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1836DA891D23C0630087DA6D /* PBXContainerItemProxy */ = {
+		1829FBDB1D260CCA0007A6F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1836DA6C1D23C0620087DA6D /* Project object */;
+			containerPortal = 1829FBBE1D260CCA0007A6F7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1836DA731D23C0620087DA6D;
+			remoteGlobalIDString = 1829FBC51D260CCA0007A6F7;
 			remoteInfo = SLCDOOR;
 		};
-		1836DA941D23C0630087DA6D /* PBXContainerItemProxy */ = {
+		1829FBE61D260CCA0007A6F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1836DA6C1D23C0620087DA6D /* Project object */;
+			containerPortal = 1829FBBE1D260CCA0007A6F7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1836DA731D23C0620087DA6D;
+			remoteGlobalIDString = 1829FBC51D260CCA0007A6F7;
 			remoteInfo = SLCDOOR;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		1811D7FF1D2523960034C1E2 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		1811D7BC1D24C87D0034C1E2 /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
-		1812B3341D23CBEE007A7FA9 /* SLCBluetoothViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCBluetoothViewController.swift; sourceTree = "<group>"; };
-		1812B3381D23CC2B007A7FA9 /* SLCKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCKeys.swift; sourceTree = "<group>"; };
-		1836DA741D23C0620087DA6D /* SLCDOOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLCDOOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1836DA7E1D23C0620087DA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../SLCDOOR/Assets.xcassets; sourceTree = "<group>"; };
-		1836DA831D23C0620087DA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
-		1836DA881D23C0630087DA6D /* SLCDOORTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLCDOORTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1836DA8C1D23C0630087DA6D /* SLCDOORTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCDOORTests.swift; sourceTree = "<group>"; };
-		1836DA8E1D23C0630087DA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1836DA931D23C0630087DA6D /* SLCDOORUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLCDOORUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1836DA971D23C0630087DA6D /* SLCDOORUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCDOORUITests.swift; sourceTree = "<group>"; };
-		1836DA991D23C0630087DA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1836DADA1D23C62C0087DA6D /* SLCFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCFirstViewController.swift; sourceTree = "<group>"; };
-		1836DADC1D23C62C0087DA6D /* SLCHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCHistoryViewController.swift; sourceTree = "<group>"; };
-		1836DADE1D23C62C0087DA6D /* SLCHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCHomeViewController.swift; sourceTree = "<group>"; };
-		1836DADF1D23C62C0087DA6D /* SLCQRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCQRViewController.swift; sourceTree = "<group>"; };
-		1836DAE11D23C62C0087DA6D /* SLCKeyBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCKeyBoardViewController.swift; sourceTree = "<group>"; };
-		1836DAE21D23C62C0087DA6D /* SLCKeyManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCKeyManagerViewController.swift; sourceTree = "<group>"; };
-		1836DAE41D23C62C0087DA6D /* SLCSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSecondViewController.swift; sourceTree = "<group>"; };
-		1836DAE71D23C62C0087DA6D /* SLCBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCBaseViewController.swift; sourceTree = "<group>"; };
-		1836DAE81D23C62C0087DA6D /* SLCSetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSetViewController.swift; sourceTree = "<group>"; };
-		1836DAEA1D23C62C0087DA6D /* SLCSettingArrowItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSettingArrowItem.swift; sourceTree = "<group>"; };
-		1836DAEB1D23C62C0087DA6D /* SLCSettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSettingCell.swift; sourceTree = "<group>"; };
-		1836DAEC1D23C62C0087DA6D /* SLCSettingGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSettingGroup.swift; sourceTree = "<group>"; };
-		1836DAED1D23C62C0087DA6D /* SLCSettingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSettingItem.swift; sourceTree = "<group>"; };
-		1836DAEE1D23C62C0087DA6D /* SLCSettingLabelItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSettingLabelItem.swift; sourceTree = "<group>"; };
-		1836DAEF1D23C62C0087DA6D /* SLCSettingSwitchItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSettingSwitchItem.swift; sourceTree = "<group>"; };
-		1836DAF11D23C62C0087DA6D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1836DAF21D23C62C0087DA6D /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
-		1836DAF41D23C62C0087DA6D /* SLCNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCNavigationController.swift; sourceTree = "<group>"; };
-		1836DAF51D23C62C0087DA6D /* SLCPassWordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCPassWordViewController.swift; sourceTree = "<group>"; };
-		1836DAF61D23C62C0087DA6D /* SLCPassWordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLCPassWordViewController.xib; sourceTree = "<group>"; };
-		1836DAF71D23C62C0087DA6D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		1836DAF81D23C62C0087DA6D /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
-		1836DAFA1D23C62C0087DA6D /* SLCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCButton.swift; sourceTree = "<group>"; };
-		1836DAFB1D23C62C0087DA6D /* UIButton+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Category.swift"; sourceTree = "<group>"; };
-		1836DAFC1D23C62C0087DA6D /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
-		1D18F8D34EAC43AE5AF5ECB6 /* Pods-SLCDOOR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLCDOOR.release.xcconfig"; path = "Pods/Target Support Files/Pods-SLCDOOR/Pods-SLCDOOR.release.xcconfig"; sourceTree = "<group>"; };
-		5D511FD1886DBC46A590D8FA /* Pods_SLCDOOR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLCDOOR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F30B1237CE4D1BA5A539B35E /* Pods-SLCDOOR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLCDOOR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLCDOOR/Pods-SLCDOOR.debug.xcconfig"; sourceTree = "<group>"; };
+		1829FBC61D260CCA0007A6F7 /* SLCDOOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLCDOOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1829FBD01D260CCA0007A6F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../SLCDOOR/Assets.xcassets; sourceTree = "<group>"; };
+		1829FBD51D260CCA0007A6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1829FBDA1D260CCA0007A6F7 /* SLCDOORTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLCDOORTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1829FBDE1D260CCA0007A6F7 /* SLCDOORTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCDOORTests.swift; sourceTree = "<group>"; };
+		1829FBE01D260CCA0007A6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1829FBE51D260CCA0007A6F7 /* SLCDOORUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLCDOORUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1829FBE91D260CCA0007A6F7 /* SLCDOORUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCDOORUITests.swift; sourceTree = "<group>"; };
+		1829FBEB1D260CCA0007A6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1829FBFB1D260D610007A6F7 /* SLCBluetoothViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCBluetoothViewController.swift; sourceTree = "<group>"; };
+		1829FBFD1D260D610007A6F7 /* SLCKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCKeys.swift; sourceTree = "<group>"; };
+		1829FC001D260D610007A6F7 /* SLCFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCFirstViewController.swift; sourceTree = "<group>"; };
+		1829FC021D260D610007A6F7 /* SLCHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCHistoryViewController.swift; sourceTree = "<group>"; };
+		1829FC041D260D610007A6F7 /* SLCHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCHomeViewController.swift; sourceTree = "<group>"; };
+		1829FC051D260D610007A6F7 /* SLCQRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCQRViewController.swift; sourceTree = "<group>"; };
+		1829FC071D260D610007A6F7 /* SLCKeyBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCKeyBoardViewController.swift; sourceTree = "<group>"; };
+		1829FC081D260D610007A6F7 /* SLCKeyManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCKeyManagerViewController.swift; sourceTree = "<group>"; };
+		1829FC0A1D260D610007A6F7 /* SLCSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSecondViewController.swift; sourceTree = "<group>"; };
+		1829FC0D1D260D610007A6F7 /* SLCBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCBaseViewController.swift; sourceTree = "<group>"; };
+		1829FC0E1D260D610007A6F7 /* SLCSetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSetViewController.swift; sourceTree = "<group>"; };
+		1829FC101D260D610007A6F7 /* SLCSettingArrowItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSettingArrowItem.swift; sourceTree = "<group>"; };
+		1829FC111D260D610007A6F7 /* SLCSettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSettingCell.swift; sourceTree = "<group>"; };
+		1829FC121D260D610007A6F7 /* SLCSettingGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSettingGroup.swift; sourceTree = "<group>"; };
+		1829FC131D260D610007A6F7 /* SLCSettingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSettingItem.swift; sourceTree = "<group>"; };
+		1829FC141D260D610007A6F7 /* SLCSettingLabelItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSettingLabelItem.swift; sourceTree = "<group>"; };
+		1829FC151D260D610007A6F7 /* SLCSettingSwitchItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCSettingSwitchItem.swift; sourceTree = "<group>"; };
+		1829FC171D260D610007A6F7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1829FC181D260D610007A6F7 /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BluetoothManager.swift; path = ../BluetoothManager.swift; sourceTree = "<group>"; };
+		1829FC191D260D610007A6F7 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		1829FC1B1D260D610007A6F7 /* SLCNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCNavigationController.swift; sourceTree = "<group>"; };
+		1829FC1C1D260D610007A6F7 /* SLCPassWordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCPassWordViewController.swift; sourceTree = "<group>"; };
+		1829FC1D1D260D610007A6F7 /* SLCPassWordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLCPassWordViewController.xib; sourceTree = "<group>"; };
+		1829FC1E1D260D610007A6F7 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		1829FC1F1D260D610007A6F7 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = ../R.generated.swift; sourceTree = "<group>"; };
+		1829FC211D260D610007A6F7 /* SLCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLCButton.swift; sourceTree = "<group>"; };
+		1829FC221D260D610007A6F7 /* UIButton+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Category.swift"; sourceTree = "<group>"; };
+		1829FC231D260D610007A6F7 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		1829FC3F1D2610F00007A6F7 /* RefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RefreshView.xib; path = ../RefreshView.xib; sourceTree = "<group>"; };
+		1829FC401D2610F00007A6F7 /* RefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RefreshView.swift; path = ../RefreshView.swift; sourceTree = "<group>"; };
+		4E16A1449AD18A7A682AE156 /* Pods_SLCDOOR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLCDOOR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C89DF1D8B1302FCDA56250 /* Pods-SLCDOOR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLCDOOR.release.xcconfig"; path = "Pods/Target Support Files/Pods-SLCDOOR/Pods-SLCDOOR.release.xcconfig"; sourceTree = "<group>"; };
+		F0CD253157D512EBA61FB8D1 /* Pods-SLCDOOR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLCDOOR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLCDOOR/Pods-SLCDOOR.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1836DA711D23C0620087DA6D /* Frameworks */ = {
+		1829FBC31D260CCA0007A6F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB6A2CEDA52EDFDE45DFD1A1 /* Pods_SLCDOOR.framework in Frameworks */,
+				18456FA3AF38F1B78B4814AD /* Pods_SLCDOOR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1836DA851D23C0630087DA6D /* Frameworks */ = {
+		1829FBD71D260CCA0007A6F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1836DA901D23C0630087DA6D /* Frameworks */ = {
+		1829FBE21D260CCA0007A6F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,232 +130,234 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1812B3321D23CBEE007A7FA9 /* Bluetooth */ = {
+		1829FBBD1D260CCA0007A6F7 = {
 			isa = PBXGroup;
 			children = (
-				1812B3331D23CBEE007A7FA9 /* Controller */,
-				1812B3361D23CBEE007A7FA9 /* View */,
-				1812B3351D23CBEE007A7FA9 /* Model */,
-			);
-			path = Bluetooth;
-			sourceTree = "<group>";
-		};
-		1812B3331D23CBEE007A7FA9 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				1812B3341D23CBEE007A7FA9 /* SLCBluetoothViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		1812B3351D23CBEE007A7FA9 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				1812B3381D23CC2B007A7FA9 /* SLCKeys.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		1812B3361D23CBEE007A7FA9 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		1836DA6B1D23C0620087DA6D = {
-			isa = PBXGroup;
-			children = (
-				1836DA761D23C0620087DA6D /* SLCDOOR */,
-				1836DA8B1D23C0630087DA6D /* SLCDOORTests */,
-				1836DA961D23C0630087DA6D /* SLCDOORUITests */,
-				1836DA751D23C0620087DA6D /* Products */,
-				D7B513BBADDBBDB1C56C37CA /* Pods */,
-				AAC8539D14662F0B10C294EB /* Frameworks */,
+				1829FBC81D260CCA0007A6F7 /* SLCDOOR */,
+				1829FBDD1D260CCA0007A6F7 /* SLCDOORTests */,
+				1829FBE81D260CCA0007A6F7 /* SLCDOORUITests */,
+				1829FBC71D260CCA0007A6F7 /* Products */,
+				E45AE9108B8F8E2081A3F9D2 /* Pods */,
+				4F2154FAE742541A673EE879 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		1836DA751D23C0620087DA6D /* Products */ = {
+		1829FBC71D260CCA0007A6F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1836DA741D23C0620087DA6D /* SLCDOOR.app */,
-				1836DA881D23C0630087DA6D /* SLCDOORTests.xctest */,
-				1836DA931D23C0630087DA6D /* SLCDOORUITests.xctest */,
+				1829FBC61D260CCA0007A6F7 /* SLCDOOR.app */,
+				1829FBDA1D260CCA0007A6F7 /* SLCDOORTests.xctest */,
+				1829FBE51D260CCA0007A6F7 /* SLCDOORUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1836DA761D23C0620087DA6D /* SLCDOOR */ = {
+		1829FBC81D260CCA0007A6F7 /* SLCDOOR */ = {
 			isa = PBXGroup;
 			children = (
-				1836DAD71D23C62C0087DA6D /* Classes */,
+				1829FBF71D260D610007A6F7 /* Classes */,
+				1829FBD51D260CCA0007A6F7 /* Info.plist */,
 			);
 			path = SLCDOOR;
 			sourceTree = "<group>";
 		};
-		1836DA8B1D23C0630087DA6D /* SLCDOORTests */ = {
+		1829FBDD1D260CCA0007A6F7 /* SLCDOORTests */ = {
 			isa = PBXGroup;
 			children = (
-				1836DA7E1D23C0620087DA6D /* Assets.xcassets */,
-				1836DA8C1D23C0630087DA6D /* SLCDOORTests.swift */,
-				1836DA8E1D23C0630087DA6D /* Info.plist */,
+				1829FBD01D260CCA0007A6F7 /* Assets.xcassets */,
+				1829FBDE1D260CCA0007A6F7 /* SLCDOORTests.swift */,
+				1829FBE01D260CCA0007A6F7 /* Info.plist */,
 			);
 			path = SLCDOORTests;
 			sourceTree = "<group>";
 		};
-		1836DA961D23C0630087DA6D /* SLCDOORUITests */ = {
+		1829FBE81D260CCA0007A6F7 /* SLCDOORUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1836DA971D23C0630087DA6D /* SLCDOORUITests.swift */,
-				1836DA991D23C0630087DA6D /* Info.plist */,
+				1829FBE91D260CCA0007A6F7 /* SLCDOORUITests.swift */,
+				1829FBEB1D260CCA0007A6F7 /* Info.plist */,
 			);
 			path = SLCDOORUITests;
 			sourceTree = "<group>";
 		};
-		1836DAD71D23C62C0087DA6D /* Classes */ = {
+		1829FBF71D260D610007A6F7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1836DAD81D23C62C0087DA6D /* Controller */,
-				1836DAF01D23C62C0087DA6D /* Others */,
+				1829FBF81D260D610007A6F7 /* Controller */,
+				1829FC161D260D610007A6F7 /* Others */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		1836DAD81D23C62C0087DA6D /* Controller */ = {
+		1829FBF81D260D610007A6F7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1812B3321D23CBEE007A7FA9 /* Bluetooth */,
-				1836DAD91D23C62C0087DA6D /* First */,
-				1836DADB1D23C62C0087DA6D /* History */,
-				1836DADD1D23C62C0087DA6D /* Home */,
-				1836DAE01D23C62C0087DA6D /* KeyManager */,
-				1836DAE31D23C62C0087DA6D /* Second */,
-				1836DAE51D23C62C0087DA6D /* Set */,
+				1829FBF91D260D610007A6F7 /* Bluetooth */,
+				1829FBFF1D260D610007A6F7 /* First */,
+				1829FC011D260D610007A6F7 /* History */,
+				1829FC031D260D610007A6F7 /* Home */,
+				1829FC061D260D610007A6F7 /* KeyManager */,
+				1829FC091D260D610007A6F7 /* Second */,
+				1829FC0B1D260D610007A6F7 /* Set */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		1836DAD91D23C62C0087DA6D /* First */ = {
+		1829FBF91D260D610007A6F7 /* Bluetooth */ = {
 			isa = PBXGroup;
 			children = (
-				1836DADA1D23C62C0087DA6D /* SLCFirstViewController.swift */,
+				1829FBFA1D260D610007A6F7 /* Controller */,
+				1829FBFC1D260D610007A6F7 /* Model */,
+				1829FBFE1D260D610007A6F7 /* View */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		1829FBFA1D260D610007A6F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1829FBFB1D260D610007A6F7 /* SLCBluetoothViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1829FBFC1D260D610007A6F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1829FBFD1D260D610007A6F7 /* SLCKeys.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1829FBFE1D260D610007A6F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1829FBFF1D260D610007A6F7 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				1829FC001D260D610007A6F7 /* SLCFirstViewController.swift */,
 			);
 			path = First;
 			sourceTree = "<group>";
 		};
-		1836DADB1D23C62C0087DA6D /* History */ = {
+		1829FC011D260D610007A6F7 /* History */ = {
 			isa = PBXGroup;
 			children = (
-				1836DADC1D23C62C0087DA6D /* SLCHistoryViewController.swift */,
+				1829FC021D260D610007A6F7 /* SLCHistoryViewController.swift */,
 			);
 			path = History;
 			sourceTree = "<group>";
 		};
-		1836DADD1D23C62C0087DA6D /* Home */ = {
+		1829FC031D260D610007A6F7 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				1836DADE1D23C62C0087DA6D /* SLCHomeViewController.swift */,
-				1836DADF1D23C62C0087DA6D /* SLCQRViewController.swift */,
+				1829FC041D260D610007A6F7 /* SLCHomeViewController.swift */,
+				1829FC051D260D610007A6F7 /* SLCQRViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		1836DAE01D23C62C0087DA6D /* KeyManager */ = {
+		1829FC061D260D610007A6F7 /* KeyManager */ = {
 			isa = PBXGroup;
 			children = (
-				1836DAE11D23C62C0087DA6D /* SLCKeyBoardViewController.swift */,
-				1836DAE21D23C62C0087DA6D /* SLCKeyManagerViewController.swift */,
+				1829FC071D260D610007A6F7 /* SLCKeyBoardViewController.swift */,
+				1829FC081D260D610007A6F7 /* SLCKeyManagerViewController.swift */,
 			);
 			path = KeyManager;
 			sourceTree = "<group>";
 		};
-		1836DAE31D23C62C0087DA6D /* Second */ = {
+		1829FC091D260D610007A6F7 /* Second */ = {
 			isa = PBXGroup;
 			children = (
-				1836DAE41D23C62C0087DA6D /* SLCSecondViewController.swift */,
+				1829FC0A1D260D610007A6F7 /* SLCSecondViewController.swift */,
 			);
 			path = Second;
 			sourceTree = "<group>";
 		};
-		1836DAE51D23C62C0087DA6D /* Set */ = {
+		1829FC0B1D260D610007A6F7 /* Set */ = {
 			isa = PBXGroup;
 			children = (
-				1836DAE61D23C62C0087DA6D /* Controller */,
-				1836DAE91D23C62C0087DA6D /* View */,
+				1829FC0C1D260D610007A6F7 /* Controller */,
+				1829FC0F1D260D610007A6F7 /* View */,
 			);
 			path = Set;
 			sourceTree = "<group>";
 		};
-		1836DAE61D23C62C0087DA6D /* Controller */ = {
+		1829FC0C1D260D610007A6F7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1836DAE71D23C62C0087DA6D /* SLCBaseViewController.swift */,
-				1836DAE81D23C62C0087DA6D /* SLCSetViewController.swift */,
+				1829FC0D1D260D610007A6F7 /* SLCBaseViewController.swift */,
+				1829FC0E1D260D610007A6F7 /* SLCSetViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		1836DAE91D23C62C0087DA6D /* View */ = {
+		1829FC0F1D260D610007A6F7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1836DAEA1D23C62C0087DA6D /* SLCSettingArrowItem.swift */,
-				1836DAEB1D23C62C0087DA6D /* SLCSettingCell.swift */,
-				1836DAEC1D23C62C0087DA6D /* SLCSettingGroup.swift */,
-				1836DAED1D23C62C0087DA6D /* SLCSettingItem.swift */,
-				1836DAEE1D23C62C0087DA6D /* SLCSettingLabelItem.swift */,
-				1836DAEF1D23C62C0087DA6D /* SLCSettingSwitchItem.swift */,
+				1829FC101D260D610007A6F7 /* SLCSettingArrowItem.swift */,
+				1829FC111D260D610007A6F7 /* SLCSettingCell.swift */,
+				1829FC121D260D610007A6F7 /* SLCSettingGroup.swift */,
+				1829FC131D260D610007A6F7 /* SLCSettingItem.swift */,
+				1829FC141D260D610007A6F7 /* SLCSettingLabelItem.swift */,
+				1829FC151D260D610007A6F7 /* SLCSettingSwitchItem.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		1836DAF01D23C62C0087DA6D /* Others */ = {
+		1829FC161D260D610007A6F7 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				1811D7BC1D24C87D0034C1E2 /* BluetoothManager.swift */,
-				1836DA831D23C0620087DA6D /* Info.plist */,
-				1836DAF11D23C62C0087DA6D /* AppDelegate.swift */,
-				1836DAF21D23C62C0087DA6D /* Common.swift */,
-				1836DAF31D23C62C0087DA6D /* Controller */,
-				1836DAF71D23C62C0087DA6D /* PrefixHeader.pch */,
-				1836DAF81D23C62C0087DA6D /* R.generated.swift */,
-				1836DAF91D23C62C0087DA6D /* View */,
+				1829FC171D260D610007A6F7 /* AppDelegate.swift */,
+				1829FC191D260D610007A6F7 /* Common.swift */,
+				1829FC1A1D260D610007A6F7 /* Controller */,
+				1829FC201D260D610007A6F7 /* View */,
 			);
 			path = Others;
 			sourceTree = "<group>";
 		};
-		1836DAF31D23C62C0087DA6D /* Controller */ = {
+		1829FC1A1D260D610007A6F7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1836DAF41D23C62C0087DA6D /* SLCNavigationController.swift */,
-				1836DAF51D23C62C0087DA6D /* SLCPassWordViewController.swift */,
-				1836DAF61D23C62C0087DA6D /* SLCPassWordViewController.xib */,
+				1829FC1B1D260D610007A6F7 /* SLCNavigationController.swift */,
+				1829FC1C1D260D610007A6F7 /* SLCPassWordViewController.swift */,
+				1829FC1D1D260D610007A6F7 /* SLCPassWordViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		1836DAF91D23C62C0087DA6D /* View */ = {
+		1829FC201D260D610007A6F7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1836DAFA1D23C62C0087DA6D /* SLCButton.swift */,
-				1836DAFB1D23C62C0087DA6D /* UIButton+Category.swift */,
-				1836DAFC1D23C62C0087DA6D /* UIView+AutoLayout.swift */,
+				1829FC1E1D260D610007A6F7 /* PrefixHeader.pch */,
+				1829FC1F1D260D610007A6F7 /* R.generated.swift */,
+				1829FC181D260D610007A6F7 /* BluetoothManager.swift */,
+				1829FC3F1D2610F00007A6F7 /* RefreshView.xib */,
+				1829FC401D2610F00007A6F7 /* RefreshView.swift */,
+				1829FC211D260D610007A6F7 /* SLCButton.swift */,
+				1829FC221D260D610007A6F7 /* UIButton+Category.swift */,
+				1829FC231D260D610007A6F7 /* UIView+AutoLayout.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		AAC8539D14662F0B10C294EB /* Frameworks */ = {
+		4F2154FAE742541A673EE879 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5D511FD1886DBC46A590D8FA /* Pods_SLCDOOR.framework */,
+				4E16A1449AD18A7A682AE156 /* Pods_SLCDOOR.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D7B513BBADDBBDB1C56C37CA /* Pods */ = {
+		E45AE9108B8F8E2081A3F9D2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F30B1237CE4D1BA5A539B35E /* Pods-SLCDOOR.debug.xcconfig */,
-				1D18F8D34EAC43AE5AF5ECB6 /* Pods-SLCDOOR.release.xcconfig */,
+				F0CD253157D512EBA61FB8D1 /* Pods-SLCDOOR.debug.xcconfig */,
+				C0C89DF1D8B1302FCDA56250 /* Pods-SLCDOOR.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -372,18 +365,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1836DA731D23C0620087DA6D /* SLCDOOR */ = {
+		1829FBC51D260CCA0007A6F7 /* SLCDOOR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1836DA9C1D23C0630087DA6D /* Build configuration list for PBXNativeTarget "SLCDOOR" */;
+			buildConfigurationList = 1829FBEE1D260CCA0007A6F7 /* Build configuration list for PBXNativeTarget "SLCDOOR" */;
 			buildPhases = (
-				DD27A50BA103ADB23514B699 /* [CP] Check Pods Manifest.lock */,
-				1836DA701D23C0620087DA6D /* Sources */,
-				1836DA711D23C0620087DA6D /* Frameworks */,
-				1836DA721D23C0620087DA6D /* Resources */,
-				3FAD18A83D2C5D4C3C980697 /* [CP] Embed Pods Frameworks */,
-				AB741F68000E74666D4924E0 /* [CP] Copy Pods Resources */,
-				1836DAD41D23C2A80087DA6D /* ShellScript */,
-				1811D7FF1D2523960034C1E2 /* Embed Frameworks */,
+				408B161A84C26186B70579F4 /* [CP] Check Pods Manifest.lock */,
+				1829FBC21D260CCA0007A6F7 /* Sources */,
+				1829FBC31D260CCA0007A6F7 /* Frameworks */,
+				1829FBC41D260CCA0007A6F7 /* Resources */,
+				30253FEF8A91D1D7C1BDE415 /* [CP] Embed Pods Frameworks */,
+				EF3CFCBAB33067BDA41EB288 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -391,70 +382,69 @@
 			);
 			name = SLCDOOR;
 			productName = SLCDOOR;
-			productReference = 1836DA741D23C0620087DA6D /* SLCDOOR.app */;
+			productReference = 1829FBC61D260CCA0007A6F7 /* SLCDOOR.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1836DA871D23C0630087DA6D /* SLCDOORTests */ = {
+		1829FBD91D260CCA0007A6F7 /* SLCDOORTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1836DA9F1D23C0630087DA6D /* Build configuration list for PBXNativeTarget "SLCDOORTests" */;
+			buildConfigurationList = 1829FBF11D260CCA0007A6F7 /* Build configuration list for PBXNativeTarget "SLCDOORTests" */;
 			buildPhases = (
-				1836DA841D23C0630087DA6D /* Sources */,
-				1836DA851D23C0630087DA6D /* Frameworks */,
-				1836DA861D23C0630087DA6D /* Resources */,
+				1829FBD61D260CCA0007A6F7 /* Sources */,
+				1829FBD71D260CCA0007A6F7 /* Frameworks */,
+				1829FBD81D260CCA0007A6F7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1836DA8A1D23C0630087DA6D /* PBXTargetDependency */,
+				1829FBDC1D260CCA0007A6F7 /* PBXTargetDependency */,
 			);
 			name = SLCDOORTests;
 			productName = SLCDOORTests;
-			productReference = 1836DA881D23C0630087DA6D /* SLCDOORTests.xctest */;
+			productReference = 1829FBDA1D260CCA0007A6F7 /* SLCDOORTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1836DA921D23C0630087DA6D /* SLCDOORUITests */ = {
+		1829FBE41D260CCA0007A6F7 /* SLCDOORUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1836DAA21D23C0630087DA6D /* Build configuration list for PBXNativeTarget "SLCDOORUITests" */;
+			buildConfigurationList = 1829FBF41D260CCA0007A6F7 /* Build configuration list for PBXNativeTarget "SLCDOORUITests" */;
 			buildPhases = (
-				1836DA8F1D23C0630087DA6D /* Sources */,
-				1836DA901D23C0630087DA6D /* Frameworks */,
-				1836DA911D23C0630087DA6D /* Resources */,
+				1829FBE11D260CCA0007A6F7 /* Sources */,
+				1829FBE21D260CCA0007A6F7 /* Frameworks */,
+				1829FBE31D260CCA0007A6F7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1836DA951D23C0630087DA6D /* PBXTargetDependency */,
+				1829FBE71D260CCA0007A6F7 /* PBXTargetDependency */,
 			);
 			name = SLCDOORUITests;
 			productName = SLCDOORUITests;
-			productReference = 1836DA931D23C0630087DA6D /* SLCDOORUITests.xctest */;
+			productReference = 1829FBE51D260CCA0007A6F7 /* SLCDOORUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1836DA6C1D23C0620087DA6D /* Project object */ = {
+		1829FBBE1D260CCA0007A6F7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = SLC;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = WangLei;
 				TargetAttributes = {
-					1836DA731D23C0620087DA6D = {
+					1829FBC51D260CCA0007A6F7 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
-					1836DA871D23C0630087DA6D = {
+					1829FBD91D260CCA0007A6F7 = {
 						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 1836DA731D23C0620087DA6D;
+						TestTargetID = 1829FBC51D260CCA0007A6F7;
 					};
-					1836DA921D23C0630087DA6D = {
+					1829FBE41D260CCA0007A6F7 = {
 						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 1836DA731D23C0620087DA6D;
+						TestTargetID = 1829FBC51D260CCA0007A6F7;
 					};
 				};
 			};
-			buildConfigurationList = 1836DA6F1D23C0620087DA6D /* Build configuration list for PBXProject "SLCDOOR" */;
+			buildConfigurationList = 1829FBC11D260CCA0007A6F7 /* Build configuration list for PBXProject "SLCDOOR" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -462,36 +452,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 1836DA6B1D23C0620087DA6D;
-			productRefGroup = 1836DA751D23C0620087DA6D /* Products */;
+			mainGroup = 1829FBBD1D260CCA0007A6F7;
+			productRefGroup = 1829FBC71D260CCA0007A6F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1836DA731D23C0620087DA6D /* SLCDOOR */,
-				1836DA871D23C0630087DA6D /* SLCDOORTests */,
-				1836DA921D23C0630087DA6D /* SLCDOORUITests */,
+				1829FBC51D260CCA0007A6F7 /* SLCDOOR */,
+				1829FBD91D260CCA0007A6F7 /* SLCDOORTests */,
+				1829FBE41D260CCA0007A6F7 /* SLCDOORUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1836DA721D23C0620087DA6D /* Resources */ = {
+		1829FBC41D260CCA0007A6F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1836DB101D23C62C0087DA6D /* SLCPassWordViewController.xib in Resources */,
-				1836DA7F1D23C0620087DA6D /* Assets.xcassets in Resources */,
+				1829FC411D2610F00007A6F7 /* RefreshView.xib in Resources */,
+				1829FC3A1D260D610007A6F7 /* SLCPassWordViewController.xib in Resources */,
+				1829FBD11D260CCA0007A6F7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1836DA861D23C0630087DA6D /* Resources */ = {
+		1829FBD81D260CCA0007A6F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1836DA911D23C0630087DA6D /* Resources */ = {
+		1829FBE31D260CCA0007A6F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -501,20 +492,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1836DAD41D23C2A80087DA6D /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"";
-		};
-		3FAD18A83D2C5D4C3C980697 /* [CP] Embed Pods Frameworks */ = {
+		30253FEF8A91D1D7C1BDE415 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -529,22 +507,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLCDOOR/Pods-SLCDOOR-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AB741F68000E74666D4924E0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLCDOOR/Pods-SLCDOOR-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DD27A50BA103ADB23514B699 /* [CP] Check Pods Manifest.lock */ = {
+		408B161A84C26186B70579F4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -559,75 +522,91 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		EF3CFCBAB33067BDA41EB288 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLCDOOR/Pods-SLCDOOR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1836DA701D23C0620087DA6D /* Sources */ = {
+		1829FBC21D260CCA0007A6F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1836DB141D23C62C0087DA6D /* UIView+AutoLayout.swift in Sources */,
-				1836DB0D1D23C62C0087DA6D /* Common.swift in Sources */,
-				1811D7BD1D24C87D0034C1E2 /* BluetoothManager.swift in Sources */,
-				1812B3391D23CC2B007A7FA9 /* SLCKeys.swift in Sources */,
-				1836DB001D23C62C0087DA6D /* SLCQRViewController.swift in Sources */,
-				1836DB071D23C62C0087DA6D /* SLCSettingCell.swift in Sources */,
-				1836DB131D23C62C0087DA6D /* UIButton+Category.swift in Sources */,
-				1836DB011D23C62C0087DA6D /* SLCKeyBoardViewController.swift in Sources */,
-				1836DB0E1D23C62C0087DA6D /* SLCNavigationController.swift in Sources */,
-				1836DB0A1D23C62C0087DA6D /* SLCSettingLabelItem.swift in Sources */,
-				1836DB041D23C62C0087DA6D /* SLCBaseViewController.swift in Sources */,
-				1836DB111D23C62C0087DA6D /* R.generated.swift in Sources */,
-				1836DB091D23C62C0087DA6D /* SLCSettingItem.swift in Sources */,
-				1836DB0F1D23C62C0087DA6D /* SLCPassWordViewController.swift in Sources */,
-				1812B3371D23CBEE007A7FA9 /* SLCBluetoothViewController.swift in Sources */,
-				1836DAFF1D23C62C0087DA6D /* SLCHomeViewController.swift in Sources */,
-				1836DB0B1D23C62C0087DA6D /* SLCSettingSwitchItem.swift in Sources */,
-				1836DB0C1D23C62C0087DA6D /* AppDelegate.swift in Sources */,
-				1836DB081D23C62C0087DA6D /* SLCSettingGroup.swift in Sources */,
-				1836DB061D23C62C0087DA6D /* SLCSettingArrowItem.swift in Sources */,
-				1836DB121D23C62C0087DA6D /* SLCButton.swift in Sources */,
-				1836DAFE1D23C62C0087DA6D /* SLCHistoryViewController.swift in Sources */,
-				1836DAFD1D23C62C0087DA6D /* SLCFirstViewController.swift in Sources */,
-				1836DB051D23C62C0087DA6D /* SLCSetViewController.swift in Sources */,
-				1836DB021D23C62C0087DA6D /* SLCKeyManagerViewController.swift in Sources */,
-				1836DB031D23C62C0087DA6D /* SLCSecondViewController.swift in Sources */,
+				1829FC3C1D260D610007A6F7 /* SLCButton.swift in Sources */,
+				1829FC321D260D610007A6F7 /* SLCSettingItem.swift in Sources */,
+				1829FC271D260D610007A6F7 /* SLCHistoryViewController.swift in Sources */,
+				1829FC251D260D610007A6F7 /* SLCKeys.swift in Sources */,
+				1829FC361D260D610007A6F7 /* BluetoothManager.swift in Sources */,
+				1829FC331D260D610007A6F7 /* SLCSettingLabelItem.swift in Sources */,
+				1829FC291D260D610007A6F7 /* SLCQRViewController.swift in Sources */,
+				1829FC3E1D260D610007A6F7 /* UIView+AutoLayout.swift in Sources */,
+				1829FC391D260D610007A6F7 /* SLCPassWordViewController.swift in Sources */,
+				1829FC2C1D260D610007A6F7 /* SLCSecondViewController.swift in Sources */,
+				1829FC2B1D260D610007A6F7 /* SLCKeyManagerViewController.swift in Sources */,
+				1829FC371D260D610007A6F7 /* Common.swift in Sources */,
+				1829FC2E1D260D610007A6F7 /* SLCSetViewController.swift in Sources */,
+				1829FC2F1D260D610007A6F7 /* SLCSettingArrowItem.swift in Sources */,
+				1829FC3B1D260D610007A6F7 /* R.generated.swift in Sources */,
+				1829FC241D260D610007A6F7 /* SLCBluetoothViewController.swift in Sources */,
+				1829FC2A1D260D610007A6F7 /* SLCKeyBoardViewController.swift in Sources */,
+				1829FC311D260D610007A6F7 /* SLCSettingGroup.swift in Sources */,
+				1829FC351D260D610007A6F7 /* AppDelegate.swift in Sources */,
+				1829FC341D260D610007A6F7 /* SLCSettingSwitchItem.swift in Sources */,
+				1829FC381D260D610007A6F7 /* SLCNavigationController.swift in Sources */,
+				1829FC301D260D610007A6F7 /* SLCSettingCell.swift in Sources */,
+				1829FC3D1D260D610007A6F7 /* UIButton+Category.swift in Sources */,
+				1829FC261D260D610007A6F7 /* SLCFirstViewController.swift in Sources */,
+				1829FC421D2610F00007A6F7 /* RefreshView.swift in Sources */,
+				1829FC2D1D260D610007A6F7 /* SLCBaseViewController.swift in Sources */,
+				1829FC281D260D610007A6F7 /* SLCHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1836DA841D23C0630087DA6D /* Sources */ = {
+		1829FBD61D260CCA0007A6F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1836DA8D1D23C0630087DA6D /* SLCDOORTests.swift in Sources */,
+				1829FBDF1D260CCA0007A6F7 /* SLCDOORTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1836DA8F1D23C0630087DA6D /* Sources */ = {
+		1829FBE11D260CCA0007A6F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1836DA981D23C0630087DA6D /* SLCDOORUITests.swift in Sources */,
+				1829FBEA1D260CCA0007A6F7 /* SLCDOORUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1836DA8A1D23C0630087DA6D /* PBXTargetDependency */ = {
+		1829FBDC1D260CCA0007A6F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1836DA731D23C0620087DA6D /* SLCDOOR */;
-			targetProxy = 1836DA891D23C0630087DA6D /* PBXContainerItemProxy */;
+			target = 1829FBC51D260CCA0007A6F7 /* SLCDOOR */;
+			targetProxy = 1829FBDB1D260CCA0007A6F7 /* PBXContainerItemProxy */;
 		};
-		1836DA951D23C0630087DA6D /* PBXTargetDependency */ = {
+		1829FBE71D260CCA0007A6F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1836DA731D23C0620087DA6D /* SLCDOOR */;
-			targetProxy = 1836DA941D23C0630087DA6D /* PBXContainerItemProxy */;
+			target = 1829FBC51D260CCA0007A6F7 /* SLCDOOR */;
+			targetProxy = 1829FBE61D260CCA0007A6F7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1836DA9A1D23C0630087DA6D /* Debug */ = {
+		1829FBEC1D260CCA0007A6F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -672,7 +651,7 @@
 			};
 			name = Debug;
 		};
-		1836DA9B1D23C0630087DA6D /* Release */ = {
+		1829FBED1D260CCA0007A6F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -710,23 +689,23 @@
 			};
 			name = Release;
 		};
-		1836DA9D1D23C0630087DA6D /* Debug */ = {
+		1829FBEF1D260CCA0007A6F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F30B1237CE4D1BA5A539B35E /* Pods-SLCDOOR.debug.xcconfig */;
+			baseConfigurationReference = F0CD253157D512EBA61FB8D1 /* Pods-SLCDOOR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SLCDOOR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huatune.SLCDOOR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		1836DA9E1D23C0630087DA6D /* Release */ = {
+		1829FBF01D260CCA0007A6F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D18F8D34EAC43AE5AF5ECB6 /* Pods-SLCDOOR.release.xcconfig */;
+			baseConfigurationReference = C0C89DF1D8B1302FCDA56250 /* Pods-SLCDOOR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -737,7 +716,7 @@
 			};
 			name = Release;
 		};
-		1836DAA01D23C0630087DA6D /* Debug */ = {
+		1829FBF21D260CCA0007A6F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -749,7 +728,7 @@
 			};
 			name = Debug;
 		};
-		1836DAA11D23C0630087DA6D /* Release */ = {
+		1829FBF31D260CCA0007A6F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -761,7 +740,7 @@
 			};
 			name = Release;
 		};
-		1836DAA31D23C0630087DA6D /* Debug */ = {
+		1829FBF51D260CCA0007A6F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = SLCDOORUITests/Info.plist;
@@ -772,7 +751,7 @@
 			};
 			name = Debug;
 		};
-		1836DAA41D23C0630087DA6D /* Release */ = {
+		1829FBF61D260CCA0007A6F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = SLCDOORUITests/Info.plist;
@@ -786,43 +765,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1836DA6F1D23C0620087DA6D /* Build configuration list for PBXProject "SLCDOOR" */ = {
+		1829FBC11D260CCA0007A6F7 /* Build configuration list for PBXProject "SLCDOOR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1836DA9A1D23C0630087DA6D /* Debug */,
-				1836DA9B1D23C0630087DA6D /* Release */,
+				1829FBEC1D260CCA0007A6F7 /* Debug */,
+				1829FBED1D260CCA0007A6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1836DA9C1D23C0630087DA6D /* Build configuration list for PBXNativeTarget "SLCDOOR" */ = {
+		1829FBEE1D260CCA0007A6F7 /* Build configuration list for PBXNativeTarget "SLCDOOR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1836DA9D1D23C0630087DA6D /* Debug */,
-				1836DA9E1D23C0630087DA6D /* Release */,
+				1829FBEF1D260CCA0007A6F7 /* Debug */,
+				1829FBF01D260CCA0007A6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1836DA9F1D23C0630087DA6D /* Build configuration list for PBXNativeTarget "SLCDOORTests" */ = {
+		1829FBF11D260CCA0007A6F7 /* Build configuration list for PBXNativeTarget "SLCDOORTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1836DAA01D23C0630087DA6D /* Debug */,
-				1836DAA11D23C0630087DA6D /* Release */,
+				1829FBF21D260CCA0007A6F7 /* Debug */,
+				1829FBF31D260CCA0007A6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1836DAA21D23C0630087DA6D /* Build configuration list for PBXNativeTarget "SLCDOORUITests" */ = {
+		1829FBF41D260CCA0007A6F7 /* Build configuration list for PBXNativeTarget "SLCDOORUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1836DAA31D23C0630087DA6D /* Debug */,
-				1836DAA41D23C0630087DA6D /* Release */,
+				1829FBF51D260CCA0007A6F7 /* Debug */,
+				1829FBF61D260CCA0007A6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1836DA6C1D23C0620087DA6D /* Project object */;
+	rootObject = 1829FBBE1D260CCA0007A6F7 /* Project object */;
 }
